@@ -1,0 +1,53 @@
+.content-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+    background: #fff;
+    border-bottom: 1px #f5f7f7 solid;
+
+    &-left {
+      flex: 1;
+      padding: 10px;
+      :global {
+        .search {
+          max-width: 280px;
+        }
+      }
+    }
+
+    &-center {
+      flex: 1;
+    }
+
+    &-actions {
+      display: flex;
+      padding: 10px;
+    }
+  }
+
+  &-main {
+    flex: 1;
+    overflow: auto;
+    background: #f0f2f5;
+    :global {
+      .ant-table {
+        background: #fff;
+      }
+      .ant-pagination {
+        display: flex;
+        justify-content: flex-start;
+        float: none;
+        margin: 12px 0;
+        margin-left: 0;
+        padding: 12px 0;
+        background: #fff;
+      }
+    }
+  }
+}
