@@ -203,8 +203,6 @@ export const updateTreeNode = (
   key: React.Key,
   node: any,
   data: any,
-  instents = [],
-  entities = [],
 ) => {
   return list.map((n: any) => {
     if (n.key === key) {
@@ -221,14 +219,7 @@ export const updateTreeNode = (
     if (n.children) {
       return {
         ...n,
-        children: updateTreeNode(
-          n.children,
-          key,
-          node,
-          data,
-          instents,
-          entities,
-        ),
+        children: updateTreeNode(n.children, key, node, data),
       };
     }
     return n;

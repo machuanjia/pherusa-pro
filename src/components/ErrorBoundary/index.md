@@ -9,8 +9,8 @@ group:
 # ErrorBoundary
 
 ```tsx
-import React from 'react'
-import { ErrorBoundary } from 'laiye-pro'
+import React from 'react';
+import { ErrorBoundary } from 'pherusa-pro';
 
-export default () => <ErrorBoundary />
+export default () => <ErrorBoundary />;
 ```

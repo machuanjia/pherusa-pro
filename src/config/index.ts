@@ -3,17 +3,17 @@
  * @Date: 2021-04-26 14:09:47
  * @LastEditTime: 2021-04-26 14:28:40
  * @LastEditors: D.Y
- * @FilePath: /laiye-pro/src/config/index.ts
+ * @FilePath: /pherusa-pro/src/config/index.ts
  * @Description:
  */
-import { merge } from 'lodash'
+import { merge } from 'lodash';
 
 type IOptions = {
   icon: {
-    font: string
-    prefix: string
-  }
-}
+    font: string;
+    prefix: string;
+  };
+};
 
 export class ProConfigration {
   static options: IOptions = {
@@ -21,8 +21,8 @@ export class ProConfigration {
       font: 'iconfont',
       prefix: 'icon-',
     },
-  }
+  };
   public static setConfigs(options: IOptions) {
-    ProConfigration.options = merge(ProConfigration.options, options)
+    ProConfigration.options = merge(ProConfigration.options, options);
   }
 }

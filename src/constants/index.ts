@@ -3,7 +3,7 @@
  * @Date: 2021-04-22 18:53:33
  * @LastEditTime: 2021-04-22 18:53:47
  * @LastEditors: D.Y
- * @FilePath: /laiye-pro/src/constants/index.ts
+ * @FilePath: /pherusa-pro/src/constants/index.ts
  * @Description:
  */
 export enum MODAL_SIZE {

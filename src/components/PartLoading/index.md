@@ -9,8 +9,8 @@ group:
 # PartLoading
 
 ```tsx
-import React from 'react'
-import { PartLoading } from 'laiye-pro'
+import React from 'react';
+import { PartLoading } from 'pherusa-pro';
 
-export default () => <PartLoading />
+export default () => <PartLoading />;
 ```

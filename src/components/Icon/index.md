@@ -9,15 +9,15 @@ group:
 # Icon
 
 ```tsx
-import React from 'react'
-import { Icon, ProConfigration } from 'laiye-pro'
+import React from 'react';
+import { Icon, ProConfigration } from 'pherusa-pro';
 
 ProConfigration.setConfigs({
   icon: {
     font: 'iconfont',
     prefix: 'icon-',
   },
-})
+});
 
-export default () => <Icon name="table" />
+export default () => <Icon name="table" />;
 ```

@@ -3,13 +3,13 @@
  * @Date: 2021-04-22 17:15:14
  * @LastEditTime: 2021-04-22 17:33:51
  * @LastEditors: D.Y
- * @FilePath: /laiye-pro/src/components/RouteView/RouteView.tsx
+ * @FilePath: /pherusa-pro/src/components/RouteView/RouteView.tsx
  * @Description:
  */
 
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
-import NoFond from '../404'
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import NoFond from '../404';
 
 /**
  *
@@ -32,11 +32,11 @@ export const generateRoutes = (
           exact={route.exact}
           strict={route.strict}
           render={props => {
-            return <route.component {...props} {...extraProps} route={route} />
+            return <route.component {...props} {...extraProps} route={route} />;
           }}
         />
       ))}
       <Route component={NoFond} />
     </Switch>
-  ) : null
-}
+  ) : null;
+};

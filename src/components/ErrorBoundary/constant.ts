@@ -1,10 +1,10 @@
 /*
  * @Author: D.Y
- * @Date: 2021-02-04 10:44:13
- * @LastEditTime: 2021-02-04 17:50:57
+ * @Date: 2021-06-16 09:30:07
+ * @LastEditTime: 2021-06-28 10:09:38
  * @LastEditors: D.Y
- * @FilePath: /laiye-pro/src/components/ErrorBoundary/constant.ts
- * @Description: ErrorBoundary constant
+ * @FilePath: /pherusa-pro/src/components/ErrorBoundary/constant.ts
+ * @Description:
  */
 
-// export const ErrorImgUrl = 'https://cdn.wul.ai/official/img/502.png'
+// export const ErrorImgUrl = ''
