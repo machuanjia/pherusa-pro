@@ -1,7 +1,7 @@
 /*
  * @Author: D.Y
  * @Date: 2021-02-04 10:15:26
- * @LastEditTime: 2021-06-16 09:58:10
+ * @LastEditTime: 2021-08-03 11:07:21
  * @LastEditors: D.Y
  * @FilePath: /pherusa-pro/src/components/index.ts
  * @Description: 组件导出文件
@@ -17,3 +17,4 @@ export { listMixin } from './ListMixin';
 export { asyncComponent } from './RouteView/AsyncComponent';
 export { default as PartLoading } from './PartLoading';
 export { default as Icon } from './Icon';
+export { Text } from './Text'

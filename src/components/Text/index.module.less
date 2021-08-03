@@ -1,0 +1,49 @@
+.text-wrap {
+  font-size: 14px;
+  &.text-default {
+    color: @title-black;
+  }
+  &.text-info {
+    color: @placeholder;
+  }
+  &.text-label {
+    color: @gray;
+  }
+  &.text-empty {
+    color: @disable;
+  }
+  &.text-icon {
+    &.text-icon-small {
+      i {
+        margin-right: 4px;
+      }
+    }
+    i {
+      margin-right: 8px;
+    }
+  }
+  &.text-link {
+    color: @secondary-text;
+    cursor: pointer;
+    &:hover {
+      color: @primary-color;
+    }
+  }
+  &.text-primaryLink {
+    color: @primary-color;
+    cursor: pointer;
+    &:hover {
+      color: @linkHover;
+    }
+  }
+  &.text-bold {
+    font-weight: bold;
+  }
+  &.text-disabled {
+    color: @disable;
+    cursor: not-allowed;
+    &:hover {
+      color: @disable;
+    }
+  }
+}
